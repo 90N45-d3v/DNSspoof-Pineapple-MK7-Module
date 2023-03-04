@@ -7,7 +7,7 @@ This module gives you the possibility to quickly manipulate DNS records and forg
 
 ### Installation
 1. Run `./build.sh` in the dnsspoof directory
-2. Upload the `dist/dnsspoof` directory onto your WiFi Pineapple
+2. Upload the `dist/dnsspoof` directory onto your WiFi Pineapple at `/pineapple/modules/`
 
 ### Preview
 https://user-images.githubusercontent.com/79598596/222646490-31a77ab3-cf07-4a01-ab76-1d7d4427ec60.mov
