@@ -1,4 +1,7 @@
 <div style="display: flex; justify-content: center; align-items: center;">
+    <span *ngIf="!backup" style="display: flex; justify-content: center; align-items: center; height: 10vh;">
+        <mat-spinner diameter="25"></mat-spinner>
+    </span>
     <mat-card style="min-width: 40%;" *ngIf="backup">
         <mat-card-title style="text-align: center;">DNSspoof</mat-card-title>
         <mat-divider></mat-divider>

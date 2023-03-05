@@ -43,6 +43,8 @@ export class dnsspoofComponent implements OnInit {
             if (response != "ok") {
                 this.error = response;
             } else {
+                this.userIP = "";
+                this.userDomain = "";
                 this.get();
             }
             this.isAdding = false;
