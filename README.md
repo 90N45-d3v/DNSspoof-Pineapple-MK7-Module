@@ -5,9 +5,13 @@ This module gives you the possibility to quickly manipulate DNS records and forg
 
 *As soon as my pull request is accepted, this module will be available in [Hak5's official module repository](https://github.com/hak5/pineapple-modules) and should be available for download directly from the web interface of the WiFi Pineapple.*
 
-### Installation
+### Compile it yourself
 1. Run `./build.sh` in the dnsspoof directory
 2. Upload the `dist/dnsspoof` directory onto your WiFi Pineapple at `/pineapple/modules/`
+
+### Or use the pre-compiled folder at [releases](https://github.com/90N45-d3v/DNSspoof-Pineapple-MK7-Module/releases)
+1. Unzip the [latest version](https://github.com/90N45-d3v/DNSspoof-Pineapple-MK7-Module/releases/latest)
+2. Upload the directory onto your WiFi Pineapple at `/pineapple/modules/`
 
 ### Preview
 https://user-images.githubusercontent.com/79598596/222646490-31a77ab3-cf07-4a01-ab76-1d7d4427ec60.mov
